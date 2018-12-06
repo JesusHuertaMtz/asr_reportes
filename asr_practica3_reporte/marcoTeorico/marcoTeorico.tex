@@ -1,0 +1,119 @@
+\noindent
+La planeación y distribución de una red son de gran importancia, pues es gracias a ésta que se podrán realizar el intercambio de información, comunicación y monitoreos de comportamientos. 
+\newline
+Existen diferentes formas de distribuir una red, haciendo uso de dispositivos de red (routers, switches, modems, etc.), para el presente mencionamos tres: estático, protocolo RIP y protocolo OSPF, mismas que se describen detalladamente a continuación. 
+
+\section{Enrutamiento estático}
+
+\noindent
+Método que otorga a los ingenieros de redes control absoluto sobre las rutas por las que se transmiten los datos en una internetwork. Para adquirir este control, en lugar de configurar protocolos de enrutamiento dinámico para que creen las tablas de enrutamiento, se crean manualmente. Es importante entender las ventajas y desventajas de la implementación de rutas estáticas, porque se utilizan extensamente en internetworks pequeñas y para establecer la conectividad con proveedores de servicios. Escribir una ruta estática en un router es especificar una ruta y un destino en la tabla de enrutamiento, y que los protocolos de enrutamiento hacen lo mismo, sólo que de manera
+automática. Sólo hay dos maneras de completar una tabla de enrutamiento: manualmente (el administrador agrega rutas estáticas) y automáticamente (por medio de protocolos de enrutamiento dinámico). \cite{estatico}
+
+\section{Protocolo de enrutamiento RIP}
+
+\noindent
+El protocolo Routing Information Protocol (RIP) es un protocolo de enrutamiento del tipo vector distancia. Los protocolos de enrutamiento vector distancia calculan la mejor ruta para encaminar los paquetes IP hacia su destino correspondiente utilizando como métrica el número de saltos (Hop Count). RIP soporta un máximo de 15 saltos. Cualquier ruta que esté a más de 15 saltos se considera inalcanzable. 
+\newline
+Cuando un usuarios se conecta el servidor de terminales (equipo en el que finaliza la llamada) avisa con un mensaje RIP al router más cercano advirtiendo de la dirección IP que ahora le pertenece.
+Así podemos ver que RIP es un protocolo usado por distintos routers para intercambiar información y así conocer por donde deberían enrutar un paquete para hacer que éste llegue a su destino.
+\newline
+El protocolo cuenta con las siguiente ventajas con respecto a otros protocolos:
+
+\begin{itemize}
+	\item Fácil de configurar.
+	\item Implementa un algoritmo de encaminamiento más simple.
+	\item Es soportado por la mayoría de los fabricantes. \cite{rip}
+\end{itemize}
+
+\section{Protocolo de enrutamiento OSPF}
+
+\noindent
+El protocolo Open Shortest Path First (OSPF) es un protocolo en enrutamiento abierto — no propietario — del tipo Link State. Este fue desarrollado por la organización IETF como un Interior Gateway Protocol (IGP) con el objetivo de reemplazar al protocolo RIP.
+\newline
+OSPF utiliza el algoritmo Dijstra para encontrar la mejor ruta hacia la red destino. Su métrica es el Cost y utiliza como variable el Bandwidth. OSPF es un protocolo Classless, lo que significa que soporta VLSM y CIDR.  
+\newline
+A diferencia de los protocolos de enrutamiento Distance Vector, los protocolos Link State NO requieren el intercambio de tablas de enrutamiento en intervalos específicos — RIP intercambia tablas cada 30 segundos — más bien sólo cuando acurren cambios en la topología de la red. También cuentan con la flexibilidad de enviar las tablas de enrutamiento de manera parcial o total. OSPF es en la actualidad el protocolo IGP más utilizado en el mundo junto al IS-IS.
+\newline
+Dentro de los protocolos de enrutamiento incluidos en el currículo de Cisco CCNA (RIP, EGRP, OSPF), OSPF es el más complejo en cuanto su configuración se refiere. Esta complejidad proviene de la naturaleza intrínseca del protocolo, ya que OSPF está diseñado para trabajar en redes grandes y complejas. \cite{ospf}
+\newline
+\newline
+Con esto, el objetivo de la administración de la configuración es supervisar la red y la información de configuración del sistema. Además de rastrear y administrar los efectos de varias versiones de elementos de hardware y software sobre la operación de la red.
+\newline
+
+\section{Supervisión de servidores}
+
+\noindent
+Como se menciona con anterioridad, la supervisión de la comunicación en una red, así como la información que en ésta se comparte es de vital importancia, pues nos permite conocer el estado de la misma y lo que viaja por sus caminos. 
+Así, enlistamos ejemplos de áreas a supervisar en una red.
+\newline
+\newline
+\textbf{Supervisión de los servidores de correo electrónico}: 
+\newline
+Todos los administradores deben supervisar la funcionalidad de sus servidores de correo. Esto significa supervisar la disponibilidad, el rendimiento y la entrega de correos electrónicos sin errores.
+\begin{itemize}
+	\item Sensor SMTP \& IMAP Round Trip: Este sensor usa SMTP e IMAP para supervisar la entrega de su correo electrónico de extremo a extremo.
+	\item Sensor SMTP \& POP3 Round Trip: Este sensor usa SMTP y POP3 para supervisar la entrega de su correo electrónico de extremo a extremo.
+\end{itemize}
+\noindent
+El sensor de ida y vuelta de SMTP e IMAP supervisa el tiempo que tarda un correo electrónico en llegar a un buzón del Protocolo de acceso a mensajes de Internet (IMAP) después de enviarse mediante el Protocolo simple de transferencia de correo (SMTP). Envía un correo electrónico utilizando el dispositivo principal como servidor SMTP y luego escanea un buzón IMAP dedicado hasta que llega este correo electrónico.
+\newline
+El sensor de ida y vuelta de SMTP e IMAP eliminará estos correos electrónicos automáticamente del buzón de correo tan pronto como el se recupere. Los correos electrónicos solo permanecerán en el buzón, especialmente si se produjo un tiempo de
+espera o un reinicio del servidor durante el tiempo de ejecución del sensor.
+El sensor muestra lo siguiente:
+\begin{itemize}
+	\item Tiempo de respuesta del servidor SMTP.
+	\item Tiempo de respuesta del servidor IMAP.
+	\item Suma de ambos tiempos de respuesta.
+\end{itemize}
+
+\noindent
+\textbf{Supervisión de los servidores de correo electrónico}:
+\newline
+El rendimiento del sitio web es un factor decisivo para muchas empresas, mucho más cuando ellas ofrecen productos y servicios a través de sus sitios web. El tiempo de inactividad es costoso desde el primer segundo. 
+\newline
+Sensor HTTP – El sensor HTTP supervisa los servidores de información y muestra lo siguiente:
+\begin{itemize}
+	\item Tiempo de respuesta (carga) de una solicitud HTTP.
+	\item Cuántos bytes ha recibido.
+	\item Ancho de banda de descarga (velocidad).
+\end{itemize}
+
+\noindent
+\textbf{Supervisión de servidores de archivos}
+\newline
+Si las empresas no pueden acceder a la información entonces nada funciona. Por lo tanto, una de las principales tareas de los administradores es asegurar que el servidor de archivos está disponible y que funciona sin ningún tipo de problema.
+\newline
+Los servidores FTP son centros de descargas que proporcionan datos, aplicaciones, controladores y actualizaciones de software a sus clientes y compañeros de trabajo. 
+\newline
+Sensor FTP - El sensor FTP supervisa los servidores de archivos que usan el protocolo de
+transferencia de archivos (FTP) o FTP sobre SSL (FTPS). Muestra lo siguiente:
+\begin{itemize}
+	\item Tiempo de respuesta del servidor.
+	\item Respuesta del servidor.
+\end{itemize}
+\noindent
+Sensor FTP Server File Count- El sensor FTP Server File Count se conecta a un servidor de protocolo de transferencia de archivos (FTP) y supervisa los cambios en los ficheros. Puede mostrar el recuento de archivos de un directorio seleccionado.
+\newline
+\newline
+\textbf{Supervisión de impresoras}
+\newline
+Las impresoras deben trabajar y no interrumpir los flujos de trabajo. Los empleados no deben tener que considerar si la impresora está lista y si todavía hay suficiente tóner.
+\newline
+Sensor de Impresión: El sensor de impresión supervisa varios tipos de impresoras usando SNMP. Muestra la siguiente información:
+\begin{itemize}
+	\item Total de páginas impresas,
+	\item Nivel de los cartuchos y/o tonners.
+	\item Estado de la impresora.
+\end{itemize}
+
+\noindent
+\textbf{Supervisión de acceso remoto}
+\newline
+El acceso remoto debe ser controlado en todo momento. Un administrador de red debe controlar las conexiones de acceso remoto a su red.
+\newline
+Sensor de accesso remoto- Un sensor de acceso remoto controla las conexiones de protocolos como RDP, SSH, Telnet, and VNC. Muestra la siguiente información:
+\begin{itemize}
+	\item Número de conexiones.
+	\item Tráfico enviado y recibido.
+	\item Tiempo de actividad de las conexión.
+\end{itemize}
