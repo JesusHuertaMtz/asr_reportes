@@ -1,28 +1,15 @@
-\BOOKMARK [0][-]{chapter.1}{Modelo de Negocios}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Glosario de T\351rminos del Negocio}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Hechos del Negocio}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Reglas de Negocio}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Modelo de Casos de Uso}{}% 5
-\BOOKMARK [1][-]{section.2.1}{CU1 Asignar Membres\355a}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.1.1}{Descripci\363n completa}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.2}{Atributos importantes}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.3}{Trayectorias del Caso de Uso}{section.2.1}% 9
-\BOOKMARK [1][-]{section.2.2}{CU2 Registrar ingreso a \341rea}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.1}{Descripci\363n completa}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.2}{Atributos importantes}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.3}{Trayectorias del Caso de Uso}{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{CU3 Registrar salida de un \341rea}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.3.1}{Descripci\363n completa}{section.2.3}% 15
-\BOOKMARK [2][-]{subsection.2.3.2}{Atributos importantes}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.3}{Trayectorias del Caso de Uso}{section.2.3}% 17
-\BOOKMARK [1][-]{section.2.4}{CU4 Registrar pago de membres\355a}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.4.1}{Descripci\363n completa}{section.2.4}% 19
-\BOOKMARK [2][-]{subsection.2.4.2}{Atributos importantes}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.3}{Trayectorias del Caso de Uso}{section.2.4}% 21
-\BOOKMARK [1][-]{section.2.5}{CU5 Consultar uso de \341rea.}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.5.1}{Descripci\363n completa}{section.2.5}% 23
-\BOOKMARK [2][-]{subsection.2.5.2}{Atributos importantes}{section.2.5}% 24
-\BOOKMARK [2][-]{subsection.2.5.3}{Trayectorias del Caso de Uso}{section.2.5}% 25
-\BOOKMARK [0][-]{chapter.3}{Modelo de la Interacci\363n}{}% 26
-\BOOKMARK [1][-]{subsection.3.0.1}{IU23 Pantalla de Control de Acceso}{chapter.3}% 27
-\BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 28
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Marco te\363rico}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Desarrollo de la pr\341ctica}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Tarea 1: Configuraci\363n de dispositivos IP}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Tarea 2: Supervisi\363n de servidores}{chapter.3}% 5
+\BOOKMARK [2][-]{subsection.3.2.1}{Supervisi\363n de los servidores de correo electr\363nico}{section.3.2}% 6
+\BOOKMARK [2][-]{subsection.3.2.2}{Supervisi\363n de los servidores web}{section.3.2}% 7
+\BOOKMARK [2][-]{subsection.3.2.3}{Supervisi\363n de servidores de archivos}{section.3.2}% 8
+\BOOKMARK [2][-]{subsection.3.2.4}{Supervisi\363n de impresoras}{section.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.2.5}{Supervisi\363n de acceso remoto}{section.3.2}% 10
+\BOOKMARK [1][-]{section.3.3}{Tarea 3: Recopilaci\363n de informaci\363n de dispositivos de manera peri\363dica}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{Conclusiones}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Huerta Mart\355nez Jes\372s Manuel}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Monte\363n Vald\351s Ra\372l Kevin}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Olivares Garc\355a Marco Antonio}{chapter.4}% 15
