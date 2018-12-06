@@ -1,15 +1,19 @@
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Marco te\363rico}{}% 2
-\BOOKMARK [0][-]{chapter.3}{Desarrollo de la pr\341ctica}{}% 3
-\BOOKMARK [1][-]{section.3.1}{Tarea 1: Configuraci\363n de dispositivos IP}{chapter.3}% 4
-\BOOKMARK [1][-]{section.3.2}{Tarea 2: Supervisi\363n de servidores}{chapter.3}% 5
-\BOOKMARK [2][-]{subsection.3.2.1}{Supervisi\363n de los servidores de correo electr\363nico}{section.3.2}% 6
-\BOOKMARK [2][-]{subsection.3.2.2}{Supervisi\363n de los servidores web}{section.3.2}% 7
-\BOOKMARK [2][-]{subsection.3.2.3}{Supervisi\363n de servidores de archivos}{section.3.2}% 8
-\BOOKMARK [2][-]{subsection.3.2.4}{Supervisi\363n de impresoras}{section.3.2}% 9
-\BOOKMARK [2][-]{subsection.3.2.5}{Supervisi\363n de acceso remoto}{section.3.2}% 10
-\BOOKMARK [1][-]{section.3.3}{Tarea 3: Recopilaci\363n de informaci\363n de dispositivos de manera peri\363dica}{chapter.3}% 11
-\BOOKMARK [0][-]{chapter.4}{Conclusiones}{}% 12
-\BOOKMARK [1][-]{section.4.1}{Huerta Mart\355nez Jes\372s Manuel}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{Monte\363n Vald\351s Ra\372l Kevin}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{Olivares Garc\355a Marco Antonio}{chapter.4}% 15
+\BOOKMARK [1][-]{section.2.1}{Enrutamiento est\341tico}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Protocolo de enrutamiento RIP}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Protocolo de enrutamiento OSPF}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Supervisi\363n de servidores}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.3}{Desarrollo de la pr\341ctica}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Tarea 1: Configuraci\363n de dispositivos IP}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Tarea 2: Supervisi\363n de servidores}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.2.1}{Supervisi\363n de los servidores de correo electr\363nico}{section.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.2.2}{Supervisi\363n de los servidores web}{section.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.2.3}{Supervisi\363n de servidores de archivos}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.4}{Supervisi\363n de impresoras}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.5}{Supervisi\363n de acceso remoto}{section.3.2}% 14
+\BOOKMARK [1][-]{section.3.3}{Tarea 3: Recopilaci\363n de informaci\363n de dispositivos de manera peri\363dica}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Conclusiones}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Huerta Mart\355nez Jes\372s Manuel}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{Monte\363n Vald\351s Ra\372l Kevin}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.3}{Olivares Garc\355a Marco Antonio}{chapter.4}% 19

@@ -1,23 +1,27 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{2}{chapter.2}
-\contentsline {chapter}{\numberline {3}Desarrollo de la pr\IeC {\'a}ctica}{3}{chapter.3}
-\contentsline {section}{\numberline {3.1}Tarea 1: Configuraci\IeC {\'o}n de dispositivos IP}{3}{section.3.1}
-\contentsline {section}{\numberline {3.2}Tarea 2: Supervisi\IeC {\'o}n de servidores}{3}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Supervisi\IeC {\'o}n de los servidores de correo electr\IeC {\'o}nico}{3}{subsection.3.2.1}
-\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{3}{section*.2}
-\contentsline {subsection}{\numberline {3.2.2}Supervisi\IeC {\'o}n de los servidores web}{4}{subsection.3.2.2}
-\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{4}{section*.3}
-\contentsline {subsubsection}{Sensor}{4}{section*.4}
-\contentsline {subsection}{\numberline {3.2.3}Supervisi\IeC {\'o}n de servidores de archivos}{5}{subsection.3.2.3}
-\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{5}{section*.5}
-\contentsline {subsubsection}{Sensor}{7}{section*.6}
-\contentsline {subsection}{\numberline {3.2.4}Supervisi\IeC {\'o}n de impresoras}{8}{subsection.3.2.4}
-\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{8}{section*.7}
-\contentsline {subsection}{\numberline {3.2.5}Supervisi\IeC {\'o}n de acceso remoto}{11}{subsection.3.2.5}
-\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{11}{section*.8}
-\contentsline {section}{\numberline {3.3}Tarea 3: Recopilaci\IeC {\'o}n de informaci\IeC {\'o}n de dispositivos de manera peri\IeC {\'o}dica}{12}{section.3.3}
-\contentsline {chapter}{\numberline {4}Conclusiones}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Huerta Mart\IeC {\'\i }nez Jes\IeC {\'u}s Manuel}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Monte\IeC {\'o}n Vald\IeC {\'e}s Ra\IeC {\'u}l Kevin}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Olivares Garc\IeC {\'\i }a Marco Antonio}{13}{section.4.3}
+\contentsline {section}{\numberline {2.1}Enrutamiento est\IeC {\'a}tico}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Protocolo de enrutamiento RIP}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}Protocolo de enrutamiento OSPF}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}Supervisi\IeC {\'o}n de servidores}{3}{section.2.4}
+\contentsline {chapter}{\numberline {3}Desarrollo de la pr\IeC {\'a}ctica}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Tarea 1: Configuraci\IeC {\'o}n de dispositivos IP}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Tarea 2: Supervisi\IeC {\'o}n de servidores}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Supervisi\IeC {\'o}n de los servidores de correo electr\IeC {\'o}nico}{5}{subsection.3.2.1}
+\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{5}{section*.2}
+\contentsline {subsection}{\numberline {3.2.2}Supervisi\IeC {\'o}n de los servidores web}{6}{subsection.3.2.2}
+\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{6}{section*.3}
+\contentsline {subsubsection}{Sensor}{6}{section*.4}
+\contentsline {subsection}{\numberline {3.2.3}Supervisi\IeC {\'o}n de servidores de archivos}{7}{subsection.3.2.3}
+\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{7}{section*.5}
+\contentsline {subsubsection}{Sensor}{9}{section*.6}
+\contentsline {subsection}{\numberline {3.2.4}Supervisi\IeC {\'o}n de impresoras}{10}{subsection.3.2.4}
+\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{10}{section*.7}
+\contentsline {subsection}{\numberline {3.2.5}Supervisi\IeC {\'o}n de acceso remoto}{13}{subsection.3.2.5}
+\contentsline {subsubsection}{Instalaci\IeC {\'o}n del servidor}{13}{section*.8}
+\contentsline {section}{\numberline {3.3}Tarea 3: Recopilaci\IeC {\'o}n de informaci\IeC {\'o}n de dispositivos de manera peri\IeC {\'o}dica}{14}{section.3.3}
+\contentsline {chapter}{\numberline {4}Conclusiones}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Huerta Mart\IeC {\'\i }nez Jes\IeC {\'u}s Manuel}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Monte\IeC {\'o}n Vald\IeC {\'e}s Ra\IeC {\'u}l Kevin}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Olivares Garc\IeC {\'\i }a Marco Antonio}{21}{section.4.3}
